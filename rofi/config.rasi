@@ -1,12 +1,10 @@
 
 configuration {
-    modi: "drun,run,window";
+    modi: "drun,browser:/home/infy/.config/rofi/browser.sh";
     show-icons: true;
     display-drun: "Apps";
-    display-run: "Run";
-    display-window: "Windows";
-    drun-display-format: "{name}";
-    sidebar-mode: false;
+    display-browser: "Browser";
+    sidebar-mode: true;
     disable-history: false;
 }
 
