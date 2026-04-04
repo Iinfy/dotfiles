@@ -54,7 +54,7 @@
         "months": "<span size='large' color='#d8dee9'><b>{}</b></span>",
         "weekdays": "<span color='#8b95a6'><b><tt>{}</tt></b></span>",
         "days": "<span color='#d8dee9'><tt>{}</tt></span>",
-        "today": "<span background='#303a4a' color='#ffffff'><b><tt>{}</tt></b></span>",
+        "today": "<span color='#89b4fa'><tt>{}</tt></span>",
       },
     },
     "format-alt": "{:%d-%m-%Y}",

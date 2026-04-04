@@ -2,7 +2,7 @@
 
 import json
 
-MEM_ICON = "\uf1c0"
+MEM_ICON = ""
 
 
 def read_meminfo_kib():
