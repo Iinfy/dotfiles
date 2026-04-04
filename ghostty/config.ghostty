@@ -1,1 +1,13 @@
-
+background = #0a192f
+background-opacity = 0.8
+font-family = "JetBrains Mono"
+font-size = 12
+window-padding-x = 8
+window-padding-y = 8
+window-padding-balance = true
+confirm-close-surface = false
+cursor-style = block
+cursor-style-blink = false
+mouse-hide-while-typing = true
+window-decoration = false
+command = zsh
