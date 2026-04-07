@@ -1,6 +1,6 @@
 
 configuration {
-    modi: "drun,browser:/home/infy/.config/rofi/browser.sh";
+    modi: "drun,";
     show-icons: true;
     display-drun: "Apps";
     display-browser: "Browser";
