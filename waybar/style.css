@@ -13,7 +13,7 @@
   border: none;
   border-radius: 0;
   font-family: "Symbols Nerd Font", "Symbols Nerd Font Mono", "JetBrainsMono Nerd Font", "JetBrains Mono", monospace;
-  font-size: 14px;
+  font-size: 13px;
   min-height: 0;
 }
 
@@ -25,10 +25,10 @@ window#waybar {
 #workspaces {
   background: @bg;
   border: 1px solid @border;
-  border-radius: 8px;
-  margin: 2px 8px 2px 10px;
-  min-height: 22px;
-  padding: 0 2px;
+  border-radius: 999px;
+  margin: 1px 8px 1px 10px;
+  min-height: 24px;
+  padding: 0;
 }
 
 #workspaces button {
@@ -38,20 +38,30 @@ window#waybar {
   box-shadow: none;
   text-shadow: none;
   border-radius: 999px;
-  font-size: 22px;
-  margin: 0 5px;
-  padding: 0 2px;
+  font-size: 13px;
+  margin: 0 1px;
+  min-width: 24px;
+  min-height: 24px;
+  padding: 0;
 }
 
 #workspaces button label {
-  margin-top: -1px;
+  margin-top: 0;
 }
 
 #workspaces button.active {
-  background: transparent;
+  background: #ffffff;
   border: none;
-  color: #ffffff;
+  color: @bg;
   text-shadow: none;
+}
+
+#workspaces button:first-child {
+  margin-left: 0;
+}
+
+#workspaces button:last-child {
+  margin-right: 0;
 }
 
 #workspaces button:hover {
@@ -70,33 +80,33 @@ window#waybar {
 #custom-exit {
   background: @bg;
   border: 1px solid @border;
-  border-radius: 8px;
+  border-radius: 999px;
   color: @fg;
-  margin: 2px 0 2px 8px;
-  min-height: 22px;
-  padding: 0 10px;
+  margin: 1px 0 1px 8px;
+  min-height: 24px;
+  padding: 0 12px;
 }
 
 #custom-exit {
   color: @critical;
   margin-right: 10px;
-  min-width: 22px;
-  padding-left: 7px;
-  padding-right: 7px;
+  min-width: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
   font-family: "JetBrains Mono", monospace;
 }
 
 #custom-cpu {
   margin-right: 0;
   border-right: none;
-  border-radius: 8px 0 0 8px;
-  padding-right: 8px;
+  border-radius: 999px 0 0 999px;
+  padding-right: 10px;
 }
 
 #custom-memory {
   margin-left: 0;
-  border-radius: 0 8px 8px 0;
-  padding-left: 8px;
+  border-radius: 0 999px 999px 0;
+  padding-left: 10px;
 }
 
 #tray {
@@ -106,7 +116,7 @@ window#waybar {
 
 #custom-mpris {
   min-width: 220px;
-  font-size: 16px;
+  font-size: 13px;
   font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace;
 }
 
@@ -137,5 +147,5 @@ tooltip {
 tooltip label {
   color: @fg;
   font-family: "JetBrains Mono", monospace;
-  font-size: 14px;
+  font-size: 13px;
 }

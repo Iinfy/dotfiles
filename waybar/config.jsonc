@@ -4,7 +4,7 @@
   "margin-bottom": 2,
   "margin-left": 10,
   "margin-right": 10,
-  "height": 24,
+  "height": 22,
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
   "modules-right": [
@@ -25,16 +25,10 @@
     "separate-outputs": true,
   },
   "hyprland/workspaces": {
-    "format": "{icon}",
+    "format": "{name}",
     "on-click": "activate",
     "all-outputs": false,
     "persistent-only": true,
-    "format-icons": {
-      "active": "●",
-      "default": "•",
-      "empty": "•",
-      "persistent": "•",
-    },
     "sort-by-number": true,
     "persistent-workspaces": {
       "DP-1": [1, 2, 3, 4],
@@ -103,7 +97,7 @@
     "format": "{}",
     "format-us": "ENG",
     "format-en": "ENG",
-    "format-ru": "RU",
+    "format-ru": "RU ",
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
